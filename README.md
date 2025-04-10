@@ -1,8 +1,8 @@
-Bank Account Management System in C++
-Overview
+## Bank Account Management System in C++
+## Overview
 This project is a basic implementation of a bank account management system using C++ classes. It allows a user to create an account with details like name, account number, and balance, and then perform deposit and withdrawal operations.
 
-Features
+## Features
 Set and get customer name, account number, and balance.
 
 Deposit and withdraw amounts from the account.
@@ -11,7 +11,7 @@ Validate deposit and withdrawal amounts (ensure balance is sufficient for withdr
 
 Display account details after each operation.
 
-Code Explanation
+## Code Explanation
 Account Class: The Account class contains private properties for the customer's name, account number, and balance. It provides the following methods:
 
 setAccNumber(): Sets the account number.
@@ -34,40 +34,33 @@ getInfo(): Prompts the user to input all necessary information (name, account nu
 
 displayInfo(): Displays the customer's information, including the updated balance after deposit/withdrawal.
 
-Main Function: In the main() function, a loop is used to create three different customer accounts and interact with them. For each account, the user is prompted to input information, and the updated balance is displayed.
+## Main Function: 
+In the main() function, a loop is used to create three different customer accounts and interact with them. For each account, the user is prompted to input information, and the updated balance is displayed.
 
-Installation
+## Installation
 To compile and run the code, you need:
 
 A C++ compiler (e.g., g++ or clang++)
 
 An IDE or text editor to write and modify the code (e.g., Visual Studio Code, Xcode, or any text editor of your choice)
 
-Compilation
+## Compilation
 Save the code in a file (e.g., bank_account.cpp).
 
 Open a terminal and navigate to the directory where the file is located.
 
-Run the following command to compile the code:
+## Run the following command to compile the code:
 
-bash
-Copy
-Edit
 g++ -o bank_account bank_account.cpp
-Run the compiled program:
 
-bash
-Copy
-Edit
+## Run the compiled program:
 ./bank_account
-Usage
+
+## Usage
 After running the program, it will prompt the user to enter the customer's name, account number, balance, deposit amount, and withdrawal amount for three different customers. The account information will be displayed, including the updated balance after the deposit and withdrawal operations.
 
-Sample Output:
+## Sample Output:
 
-bash
-Copy
-Edit
 Type Name: John
 Type account number: 12345
 Type balance: 1000
@@ -94,12 +87,13 @@ Enter amount of withdraw: 300
 Customer's Name: Bob
 Customer's Account number: 11223
 New balance after deposit/withdraw: 400
-Dependencies
+
+## Dependencies
 This project does not have any external dependencies.
 
-Contribution
+## Contribution
 Feel free to fork and improve the project. Contributions are always welcome!
 
-License
+## License
 This project is open-source and free to use. No license has been specified, so you may use it in any way you like.
 
